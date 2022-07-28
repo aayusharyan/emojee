@@ -25,3 +25,53 @@ body {
 .mt-3 {
   margin-top: 3rem;
 }
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+input {
+  font-size: 120%;
+  border-radius: 0px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+input[type=submit] {
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: var(--black);
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.emoji {
+  font-size: 300%;
+  width: 8rem;
+  max-width: 8rem;
+}
+
+.aliases {
+  text-transform: capitalize;
+  font-size: 125%;
+}
+
+.desc {
+  font-size: 125%;
+}
+
+.desc::first-letter {
+  text-transform: uppercase;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr, td {
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+}
