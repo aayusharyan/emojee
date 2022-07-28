@@ -1,6 +1,6 @@
-# emojee
+# Emojee
 Emojee - Emoji 🔍 Application
 
-# hosted URLs
+# Hosted URLs
 - GH Pages -> https://aayusharyan.github.io/emojee/
 - Netlify -> https://emojee.netlify.app/
